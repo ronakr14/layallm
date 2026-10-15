@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-10-07T19:50:21.988800",
+  "suites": {
+    "A": [
+      {
+        "model": "jev_stub",
+        "suite": "agent_routing_5",
+        "n": 25,
+        "accuracy": 0.2,
+        "covered_accuracy": 0.2,
+        "abstention_rate": 0.0,
+        "ece": 0.4798,
+        "latency_p50": 10.0,
+        "latency_p95": 12.1,
+        "latency_mean": 10.3,
+        "n_agents": 5,
+        "total_time_s": 0.3
+      },
+      {
+        "model": "jev_stub",
+        "suite": "agent_routing_10",
+        "n": 25,
+        "accuracy": 0.12,
+        "covered_accuracy": 0.12,
+        "abstention_rate": 0.0,
+        "ece": 0.5972,
+        "latency_p50": 10.6,
+        "latency_p95": 12.1,
+        "latency_mean": 10.6,
+        "n_agents": 10,
+        "total_time_s": 0.3
+      },
+      {
+        "model": "jev_stub",
+        "suite": "agent_routing_20",
+        "n": 25,
+        "accuracy": 0.0,
+        "covered_accuracy": 0.0,
+        "abstention_rate": 0.0,
+        "ece": 0.7066,
+        "latency_p50": 10.6,
+        "latency_p95": 12.5,
+        "latency_mean": 10.6,
+        "n_agents": 20,
+        "total_time_s": 0.3
+      }
+    ],
+    "B": [
+      {
+        "model": "jev_stub",
+        "suite": "llm_routing",
+        "n": 25,
+        "accuracy": 0.2,
+        "covered_accuracy": 0.2,
+        "abstention_rate": 0.0,
+        "ece": 0.5074,
+        "latency_p50": 11.0,
+        "latency_p95": 12.5,
+        "latency_mean": 11.0,
+        "cost_saving_pct": 46.8,
+        "wrong_cheap_rate": 0.04
+      }
+    ],
+    "C": [
+      {
+        "model": "jev_stub",
+        "suite": "tool_selection_10",
+        "n": 25,
+        "accuracy": 0.0,
+        "covered_accuracy": 0.0,
+        "abstention_rate": 0.0,
+        "ece": 0.6975,
+        "latency_p50": 10.5,
+        "latency_p95": 12.3,
+        "latency_mean": 10.4,
+        "n_tools": 10,
+        "top3_recall": 0.16
+      },
+      {
+        "model": "jev_stub",
+        "suite": "tool_selection_25",
+        "n": 25,
+        "accuracy": 0.04,
+        "covered_accuracy": 0.04,
+        "abstention_rate": 0.0,
+        "ece": 0.64,
+        "latency_p50": 10.2,
+        "latency_p95": 12.0,
+        "latency_mean": 10.3,
+        "n_tools": 25,
+        "top3_recall": 0.2
+      },
+      {
+        "model": "jev_stub",
+        "suite": "tool_selection_50",
+        "n": 25,
+        "accuracy": 0.0,
+        "covered_accuracy": 0.0,
+        "abstention_rate": 0.0,
+        "ece": 0.7139,
+        "latency_p50": 10.5,
+        "latency_p95": 12.5,
+        "latency_mean": 10.5,
+        "n_tools": 50,
+        "top3_recall": 0.16
+      }
+    ],
+    "D": [
+      {
+        "model": "jev_stub",
+        "suite": "guardrails",
+        "n": 25,
+        "abstention_rate": 0.0,
+        "precision": 0.6364,
+        "recall": 0.4667,
+        "f1": 0.5385,
+        "fpr": 0.4,
+        "fnr": 0.5333,
+        "expected_risk": 5.7333,
+        "ece": 0.1844,
+        "tp": 7,
+        "fp": 4,
+        "tn": 6,
+        "fn": 8,
+        "latency_p50": 8.6,
+        "latency_p95": 10.0,
+        "latency_mean": 8.8
+      }
+    ]
+  }
+}
